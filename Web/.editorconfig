@@ -2,9 +2,11 @@
 charset = utf-8
 indent_style = tab
 indent_size = 4
+tab_width = 4
 end_of_line = lf
 trim_trailing_whitespace = true
 insert_final_newline = true
+max_line_length = 120
 
 [*.{js,css}]
 indent_style = space
@@ -18,9 +20,10 @@ indent_style = ignore
 trim_trailing_whitespace = false
 insert_final_newline = ignore
 
-[*.jade]
+[*.{jade,pug}]
 indent_style = space
 indent_size = 2
+tab_width = 2
 
 [*.scss]
 indent_style = tab
